@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFpwGEFwz4EaLeVzwviG1+AAAAAACAAAAAAAQZgAAAAEAACAAAADJ+pl0sd7o9woJgJYJSwUcjZQiBWDAYim8gUS9bLV/KgAAAAAOgAAAAAIAACAAAABd5SY6x/V3J5ED0Q5OoOoyp71BvH/V9HMnHzxosEaO84AAAAC0Ro1S4/EbvsUf3slVBcm9l62xmvRzS00nUqdCM4iydQE9ZumMK825XX+guvBQyqNMoEf3YeqdKTcn9L7Y5f1k0ILyYncXT1s+TOxGx5fmonOJkMg7f+SAU//DhZmUJS04sqnEUad1whhjl7lfJRu6QCFUUCuZFENB9/mQRARKDEAAAADgqFbJ3mEvzaG3Da/6zm7Vz7QbsXeVojUEYmQyaWs54Bp1MqDx0doamMuInZ/FVh2y/qZh05UOlhgvTRf2Igk3</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:bohyunportfoliodbserver.database.windows.net,1433%3bInitial Catalog=Portfolio_db%3bUser Id=bohyun%40bohyunportfoliodbserver%3bPassword=1q2w3e4r%25T</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Portfolio.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:bohyunportfoliodbserver.database.windows.net,1433%3bInitial Catalog=Portfolio_db%3bUser Id=bohyun%40bohyunportfoliodbserver%3bPassword=1q2w3e4r%25T</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-07-31T18:29:03.9060508Z"
+    }
+  },
+  "parameters": {
+    "resourceGroup": {
+      "Type": "resourceGroup",
+      "Value": "Portfolio20200731132227ResourceGroup"
+    },
+    "subscriptionId": {
+      "Type": "subscription",
+      "Value": "0d6c2ab3-04bc-48f9-92d3-585871c997e2"
+    }
+  }
+}
